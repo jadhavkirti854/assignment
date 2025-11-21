@@ -3,20 +3,30 @@
   <head>
     <title>CSS</title>
     <style>
-      .span{
-        hight:20px
+      .span-1{
+        hight:20px;
         width: 30px;
-        background -color:yellow;
+    background-color: rgb(116, 42, 165);
       }
-      .div{
-        background-color: aqua;
+      .span-2{
+        hight:20px;
+        width: 30px;
+    background-color: rgb(116, 42, 165);
+      }
+      .div-1{
+        background-color: rgb(255, 0, 0);
         height:30px;
         width: 50px;
       }
-      .button{
+      .div-2{
+        background-color: rgb(0, 255, 229);
+        height:40px;
+        width: 50px;
+      }
+      .btn-1{
         background-color: blue;
-        border: 100px;
-        padding: 200px;
+        border: 10px;
+        padding: 20px;
         cursor: 50px;
       }
       .button hover{
@@ -27,12 +37,12 @@
   </head>
   <body>
     <h2>inline element</h2>
-    <span>this is text content1</span> 
-    <span>this is text content2</span>
+    <span class="span-1">this is text content1</span> 
+    <span class="span-2">this is text content2</span>
     <h2>block element</h2>
     <div class="div-1">element1</div>
-    <div>element2</div>
+    <div class="div-2">element2</div>
     <h2>inline block element<h2>
-      <button>click me</button>
+      <button class="btn-1">click me</button>
   </body>
 </html>
